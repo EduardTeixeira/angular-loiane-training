@@ -89,7 +89,7 @@ Aulas realizadas sobre Angular, pela plataforma https://loiane.training/
 - 70: Definindo rota padrão e wildcard (rota não encontrada)
 - 71: Estilo de url: HTML5 ou usando #
 
-##Formulários (Templates)
+## Formulários (Templates)
 - 72: Formulários (template vs data / reativo) Introdução
 - 73: Formulários - Criando o projeto inicial com Bootstrap 3
 - 74: Forms (template driven) Controles ngForm, ngSubmit e ngModel
