@@ -2,8 +2,8 @@
 Aulas realizadas sobre Angular, pela plataforma https://loiane.training/
 
 ## Introdução
-01: Introdução + Arquitetura
-02: Ambiente de desenvolvimento
+- 01: Introdução + Arquitetura
+- 02: Ambiente de desenvolvimento
 03: Primeira app (Hello World)
 04: Introdução ao Typescript para Angular
 05: Módulos (ngModule)
