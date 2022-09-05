@@ -3,10 +3,19 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class CursosService {
 
-  constructor() { }
+  private cursos: string[] = ['Angular', 'Java', 'Python'];
+
+
+  constructor() {
+    console.log('CursosService...')
+  }
 
   getCursos() {
-    return ['Angular', 'Java', 'Python'];
+    return this.cursos;
+  }
+
+  addCurso(curso: string) {
+    this.cursos.push(curso);
   }
 
 }
