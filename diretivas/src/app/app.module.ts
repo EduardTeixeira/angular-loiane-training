@@ -15,6 +15,7 @@ import { OperadorElvisComponent } from './operador-elvis/operador-elvis.componen
 import { FundoAmareloDirective } from './shared/fundo-amarelo.directive';
 import { HighlightMouseDirective } from './shared/highlight-mouse.directive';
 import { HighlightDirective } from './shared/highlight.directive';
+import { NgElseDirective } from './shared/ng-else.directive';
 import { TesteComponent } from './teste/teste.component';
 
 @NgModule({
@@ -31,7 +32,8 @@ import { TesteComponent } from './teste/teste.component';
     DiretivasCustomizadasComponent,
     FundoAmareloDirective,
     HighlightMouseDirective,
-    HighlightDirective
+    HighlightDirective,
+    NgElseDirective
   ],
   imports: [
     BrowserModule,
