@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CursosService } from './cursos/cursos.service';
 import { CursosModule } from './cursos/cursos.module';
+import { LogService } from './shared/log.service';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CursosModule } from './cursos/cursos.module';
     CursosModule
   ],
   providers: [
-    CursosService
+    CursosService,
+    LogService
   ],
   bootstrap: [AppComponent]
 })
