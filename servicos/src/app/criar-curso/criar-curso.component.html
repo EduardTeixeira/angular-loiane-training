@@ -3,6 +3,8 @@
 <input type="text" #cursoInput>
 <button (click)="onAddCurso(cursoInput.value)">Adicionar</button>
 
-<li *ngFor="let item of cursos">
-  <ul> {{ item }} </ul>
-</li>
+<ul *ngFor="let item of cursos">
+  <li> {{ item }} </li>
+</ul>
+
+<app-receber-curso-criado></app-receber-curso-criado>
